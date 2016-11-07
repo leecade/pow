@@ -9,17 +9,17 @@
 , "bin": { "pow": "./bin/pow" }
 , "main": "./lib/index.js"
 , "dependencies": {
-    "async": "0.1.22"
-  , "connect": "~> 1.8.0"
+    "async": "2.1.2"
+  , "connect": "~3.5.0"
   , "log": ">= 1.1.1"
-  , "nack": "~> 0.13"
-  , "request": "~> 2.2"
+  , "nack": "~0.16.0"
+  , "request": "~2.78.0"
   , "dnsserver": "https://github.com/sstephenson/dnsserver.js/tarball/4f2c713b2e"
   }
 , "devDependencies": {
     "eco": "~> 1.1.0"
   , "nodeunit": ">= 0.7.4"
-  , "coffee-script": "1.3.3"
+  , "coffee-script": "1.11.1"
   }
 , "engines" : { "node" : ">= 0.6.0" }
 , "scripts": {
